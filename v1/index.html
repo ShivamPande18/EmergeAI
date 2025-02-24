@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emerge AI - Revolutionizing Recruitment</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .gradient-bg {
+        background: linear-gradient(135deg, #0056b3 0%, #00338a 100%);
+      }
+      .card-hover {
+        transition: transform 0.3s ease-in-out;
+      }
+      .card-hover:hover {
+        transform: translateY(-5px);
+      }
+      .stats-gradient {
+        background: linear-gradient(90deg, #f8fafc 0%, #e2e8f0 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white bg-opacity-95 shadow-sm z-50">
+      <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <span class="text-2xl font-bold text-blue-600">emerge</span>
+            <span class="text-2xl font-light text-gray-700">AI</span>
+          </div>
+          <div class="hidden md:flex items-center space-x-8">
+            <a href="#features" class="text-gray-600 hover:text-blue-600"
+              >Features</a
+            >
+            <a href="#how-it-works" class="text-gray-600 hover:text-blue-600"
+              >How it Works</a
+            >
+            <a href="#testimonials" class="text-gray-600 hover:text-blue-600"
+              >Testimonials</a
+            >
+            <a href="#pricing" class="text-gray-600 hover:text-blue-600"
+              >Pricing</a
+            >
+            <button
+              class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-28 pb-20 gradient-bg">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 text-white">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+              Hire Smarter,<br />Not Harder
+            </h1>
+            <p class="text-xl mb-8 text-blue-100">
+              Our AI-powered platform matches the perfect candidates with your
+              open positions, reducing hiring time by 75% while improving
+              quality of hire.
+            </p>
+            <div class="flex space-x-4">
+              <button
+                class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition"
+              >
+                Start Free Trial
+              </button>
+              <button
+                class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition"
+              >
+                Watch Demo
+              </button>
+            </div>
+          </div>
+          <div class="md:w-1/2 mt-12 md:mt-0">
+            <img
+              src="https://placehold.co/600x500"
+              alt="Platform Preview"
+              class="rounded-lg shadow-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 stats-gradient">
+      <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="text-center">
+            <h3 class="text-4xl font-bold text-blue-600 mb-2">75%</h3>
+            <p class="text-gray-600">Faster Hiring</p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-4xl font-bold text-blue-600 mb-2">92%</h3>
+            <p class="text-gray-600">Retention Rate</p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-4xl font-bold text-blue-600 mb-2">5000+</h3>
+            <p class="text-gray-600">Companies</p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-4xl font-bold text-blue-600 mb-2">1M+</h3>
+            <p class="text-gray-600">Matches Made</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">
+          Why Companies Choose Emerge
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+            <div
+              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6"
+            >
+              <img src="https://placehold.co/32x32" alt="AI Icon" />
+            </div>
+            <h3 class="text-xl font-semibold mb-4">AI-Powered Matching</h3>
+            <p class="text-gray-600">
+              Our advanced algorithms analyze thousands of data points to find
+              the perfect candidate-job fit.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6"
+            >
+              <img src="https://placehold.co/32x32" alt="Verification Icon" />
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Smart Screening</h3>
+            <p class="text-gray-600">
+              Automated skill assessment and background verification for quality
+              assurance.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+            <div
+              class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6"
+            >
+              <img src="https://placehold.co/32x32" alt="Analytics Icon" />
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Analytics Dashboard</h3>
+            <p class="text-gray-600">
+              Real-time insights into your hiring pipeline with predictive
+              analytics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">
+          How Emerge Works
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="text-center">
+            <div
+              class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6"
+            >
+              1
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Post Job</h3>
+            <p class="text-gray-600">
+              Create detailed job listings with our AI-assisted description
+              builder.
+            </p>
+          </div>
+          <div class="text-center">
+            <div
+              class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6"
+            >
+              2
+            </div>
+            <h3 class="text-xl font-semibold mb-4">AI Matching</h3>
+            <p class="text-gray-600">
+              Our AI analyzes and ranks candidates based on your requirements.
+            </p>
+          </div>
+          <div class="text-center">
+            <div
+              class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6"
+            >
+              3
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Smart Screening</h3>
+            <p class="text-gray-600">
+              Automated assessments and video interviews streamline evaluation.
+            </p>
+          </div>
+          <div class="text-center">
+            <div
+              class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6"
+            >
+              4
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Hire</h3>
+            <p class="text-gray-600">
+              Make confident hiring decisions backed by data and insights.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="bg-blue-600 rounded-2xl p-12 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+            Ready to Transform Your Hiring?
+          </h2>
+          <p class="text-xl text-blue-100 mb-8">
+            Join thousands of companies already hiring smarter with Emerge AI
+          </p>
+          <button
+            class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition"
+          >
+            Start Free Trial
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+      <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div>
+            <div class="flex items-center mb-6">
+              <span class="text-2xl font-bold text-white">emerge</span>
+              <span class="text-2xl font-light text-blue-400">AI</span>
+            </div>
+            <p class="text-sm">
+              Making hiring smarter, faster, and more efficient for companies
+              worldwide.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold mb-4">Product</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Features</a></li>
+              <li><a href="#" class="hover:text-white">Pricing</a></li>
+              <li><a href="#" class="hover:text-white">Case Studies</a></li>
+              <li><a href="#" class="hover:text-white">Reviews</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold mb-4">Company</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">About</a></li>
+              <li><a href="#" class="hover:text-white">Careers</a></li>
+              <li><a href="#" class="hover:text-white">Blog</a></li>
+              <li><a href="#" class="hover:text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold mb-4">Legal</h4>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-white">Privacy</a></li>
+              <li><a href="#" class="hover:text-white">Terms</a></li>
+              <li><a href="#" class="hover:text-white">Security</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-sm text-center">
+          <p>&copy; 2025 Emerge AI. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
